@@ -1,5 +1,6 @@
 PROJECT(cross-compile-test)
 cmake_minimum_required(VERSION 3.3)
+
 SET(BOOST_INCLUDEDIR       "${CMAKE_SOURCE_DIR}/boost/include")
 SET(BOOST_LIBRARYDIR       "${CMAKE_SOURCE_DIR}/boost/lib")
 SET(Boost_NO_SYSTEM_PATHS  ON)
